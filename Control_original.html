@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+   <meta charset="UTF-8">
+      <title>Control Panel</title>
+	  <link rel="stylesheet" href="style.css"/>
+   </head>
+   
+   <body>
+       <h1> Robot Control </h1>
+	   <br>
+	   <form action="Forwards.php" method="get">
+             <button class="F">Forwards</button>
+			 Forwards Distance: <br> <input type="text" name="mydistanceF"></input>
+	   </form>
+	      
+	   <form action="Left.php" method="get">
+	         <button class="L">Left</button>
+			  left Distance: <br> <input type="text" name="mydistanceL"></input>
+	   </form>
+		
+	   <form action="Stop.php" method="get">
+	         <button class="S">Stop</button>
+	   </form>
+			 
+	   <form  action="Right.php" method="get">	 
+	         <button class="R">Right</button>
+			 Right Distance: <br> <input type="text" name="mydistanceR"></input>
+			   
+	   </form>
+			 
+	   <form action="Backwards.php" method="get">
+             <button class="B">Backwards</button>
+			 Backwards Distance: <br> <input type="text" name="mydistanceB"></input> 
+	   </form>
+
+
+
+   </body>
+   
+</html>
